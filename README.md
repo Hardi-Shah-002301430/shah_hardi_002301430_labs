@@ -1,1 +1,1 @@
-Hello World Program for Lab_0
+Repository for Java labs
