@@ -46,9 +46,7 @@ public class AnalysisHelper {
         }
         }
         int postid = commentwithMaxLikes.getPostId () ;
-        System.out.println("Q2 - Which post has the most likes per comment?" + data.getPosts ().get (postid).toString ());
-        
-
+        System.out.println("Q2 - Which post has the most likes per comment?" + data.getPosts ().get (postid).getPostId ());
         }
     
     public void getPostwithMostComments () {
